@@ -1,0 +1,6 @@
+[submodule "thirdparty/linenoise"]
+	path = thirdparty/linenoise
+	url = https://github.com/antirez/linenoise
+[submodule "thirdparty/libelfin"]
+	path = thirdparty/libelfin
+	url = https://github.com/TartanLlama/libelfin

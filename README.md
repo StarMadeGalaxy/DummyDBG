@@ -4,26 +4,29 @@
 
 
 ## The goals I set for myself in this project:
-- [ ] Use git submodules 
-- [ ] Use cmake
+- [x] Use git submodules 
+- [x] Use cmake
 - [ ] Remote debugging 
 
 ## Getting Started 
 ### Prerequisites
-
+Cmake
+Clang (LLVM)
+C++17
+Linux
 
 ### Installation
 1. Clone the repo
    ```bat
-   git clone https://github.com/StarMadeGalaxy/snake-game.git
+   git clone https://github.com/StarMadeGalaxy/DummyDBG.git
    ```
 2. Build
    ```bat
-   shell.bat && build.bat
+   cd DummyDBG && cmake && cd build && make
    ```
 3. Run
    ```bat
-   run.bat
+   ./DummyDBG
    ```
 
 

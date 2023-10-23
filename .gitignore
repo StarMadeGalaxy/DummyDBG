@@ -3,7 +3,7 @@
 
 # ignore build directory
 build/
-.vscode/
+
 
 # Compiled Object files
 *.slo

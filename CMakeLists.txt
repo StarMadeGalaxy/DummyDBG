@@ -36,6 +36,9 @@ add_custom_target(
    WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/thirdparty/libelfin
    COMMENT "Building libelfin"
 )
+
+add_dependencies(DummyDBG libelfin)
+
 target_link_libraries(DummyDBG
                       ${PROJECT_SOURCE_DIR}/thirdparty/libelfin/dwarf/libdwarf++.so
                       ${PROJECT_SOURCE_DIR}/thirdparty/libelfin/elf/libelf++.so)

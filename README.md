@@ -10,10 +10,11 @@
 
 ## Getting Started 
 ### Prerequisites
-Cmake
-Clang (LLVM)
-C++17
-Linux
+- Cmake
+- Clang (LLVM)
+- C++17
+- Linux
+- Git
 
 ### Installation
 1. Clone the repo
@@ -22,7 +23,7 @@ Linux
    ```
 2. Build
    ```bat
-   cd DummyDBG && cmake && cd build && make
+   cd DummyDBG && mkdir build && cd build && cmake .. && make
    ```
 3. Run
    ```bat
